@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prabhat Kumar Panigrahy - Python & Django Developer Portfolio">
+    <title>Prabhat Kumar Panigrahy | Python & Django Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">PK</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-name">Hi, I'm <span class="highlight">Prabhat Kumar Panigrahy</span></h1>
+                <h2 class="hero-role">Python & Django Developer</h2>
+                <p class="hero-intro">
+                    A passionate Computer Science graduate specializing in backend development. 
+                    I love building scalable web applications using Python, Django, and REST APIs.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#resume" class="btn btn-primary">Download Resume</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/prabhat7735" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/prabhat-kumar-panigrahy-942883289/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="prabhatpanigrahy553@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-snippet">
+                    <div class="code-header">
+                        <span class="code-dot"></span>
+                        <span class="code-dot"></span>
+                        <span class="code-dot"></span>
+                    </div>
+                    <pre><code><span class="code-keyword">class</span> <span class="code-class">Developer</span>:
+    <span class="code-keyword">def</span> <span class="code-function">__init__</span>(<span class="code-var">self</span>):
+        <span class="code-var">self</span>.name = <span class="code-string">"Prabhat Kumar"</span>
+        <span class="code-var">self</span>.role = <span class="code-string">"Backend Developer"</span>
+        <span class="code-var">self</span>.skills = [<span class="code-string">"Python"</span>, <span class="code-string">"Django"</span>, <span class="code-string">"REST API"</span>]
+    
+    <span class="code-keyword">def</span> <span class="code-function">build</span>(<span class="code-var">self</span>):
+        <span class="code-keyword">return</span> <span class="code-string">"Awesome Applications"</span></code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a recent Computer Science & Engineering graduate with a strong passion for backend development. 
+                        My journey in programming started during my B.Tech studies, where I discovered my love for building 
+                        robust server-side applications and APIs.
+                    </p>
+                    <p>
+                        My expertise lies in <strong>Python</strong> and <strong>Django</strong> framework, where I've developed 
+                        several projects including RESTful APIs, authentication systems, and full-stack web applications. 
+                        I enjoy solving complex problems, writing clean and maintainable code, and continuously learning 
+                        new technologies to enhance my skills.
+                    </p>
+                    <p>
+                        When I'm not coding, I love exploring new technologies, contributing to open-source projects, 
+                        and staying updated with the latest trends in web development. I'm always eager to take on new 
+                        challenges and work on exciting projects.
+                    </p>
+                    <div class="about-education">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <p><strong>B.Tech in Computer Science & Engineering</strong></p>
+                        <p>Fresher | Passionate about Backend Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">HTTP/HTTPS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Django REST Framework</span>
+                        <span class="skill-tag">Flask</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-items">
+                        <!-- <span class="skill-tag">PostgreSQL</span> -->
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">SQLite</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Git & GitHub</span>
+                        <!-- <span class="skill-tag">Postman</span> -->
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Docker</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-lightbulb"></i> Core Concepts</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">OOP</span>
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Algorithms</span>
+                        <span class="skill-tag">API Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <h3>Weather App using Django API</h3>
+                    <p>
+                        A responsive weather application that fetches real-time weather data using Django REST API. 
+                        The app displays current weather conditions, forecasts, and location-based weather information 
+                        with a clean and intuitive user interface.
+                    </p>
+                    <div class="project-tech">
+                        <span>Django</span>
+                        <span>REST API</span>
+                        <span>Python</span>
+                    </div>
+                    <a href="https://github.com/prabhat7735" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Student CRUD Python</h3>
+                    <p>
+                        Student CRUD Management System is a Python-based application that performs Create, Read, Update, and Delete (CRUD) operations on student records using a database. The system allows adding new students, viewing existing records, updating student details, and deleting records efficiently. Python handles the application logic, while the database ensures persistent and structured data storage. This project demonstrates core concepts of Python programming, database connectivity, SQL queries, and data management.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>MySQL, Database</span>
+                        <!-- <span>REST API</span> -->
+                    </div>
+                    <a href="https://github.com/prabhat7735" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Authentication System</h3>
+                    <p>
+                        A secure authentication system built with Django featuring user registration, login, 
+                        password reset functionality, and JWT token-based authentication. Includes email 
+                        verification and secure session management.
+                    </p>
+                    <div class="project-tech">
+                        <span>Django</span>
+                        <span>JWT</span>
+                        <span>Authentication</span>
+                    </div>
+                    <a href="https://github.com/prabhat7735" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <h3>Blog App</h3>
+                    <p>
+                        A full-featured blog application with user authentication, post creation, editing, 
+                        and deletion. Features include comment system, categories, tags, search functionality, 
+                        and an admin panel for content management.
+                    </p>
+                    <div class="project-tech">
+                        <span>Django</span>
+                        <span>SQLite</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                    <a href="https://github.com" target="_blank" class="project-link">
+                        View on GitHub <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-card">
+                    <i class="fas fa-file-pdf resume-icon"></i>
+                    <h3>Download My Resume</h3>
+                    <p>Get a detailed copy of my resume in PDF format</p>
+                    <a href="resume/Prabhat_Panigrahy_Backend_Resume.pdf" class="btn btn-primary" id="downloadResume">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:prabhatpanigrahy553@gmail.com">prabhatpanigrahy553@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com" target="_blank">linkedin.com/in/prabhat-kumar</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com" target="_blank">github.com/prabhat-kumar</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Prabhat Kumar Panigrahy. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/prabhat-kumar-panigrahy-942883289/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:prabhat@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
