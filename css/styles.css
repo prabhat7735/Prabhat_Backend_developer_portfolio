@@ -1345,3 +1345,66 @@ textarea:focus {
 }
 
 
+/* ========================================
+   MOBILE RESPONSIVENESS FIXES (FINAL)
+   ADD THIS AT THE END OF YOUR CSS
+   ======================================== */
+
+/* Fix navbar height consistency */
+:root {
+    --navbar-height: 64px;
+}
+
+.navbar {
+    height: var(--navbar-height);
+}
+
+.nav-menu {
+    top: var(--navbar-height);
+    max-height: calc(100vh - var(--navbar-height));
+}
+
+/* Extra small phones (320px – 480px) */
+@media (max-width: 480px) {
+
+    /* Hero section overflow fix */
+    .hero {
+        min-height: auto;
+        padding-top: 100px;
+        padding-bottom: var(--spacing-xl);
+    }
+
+    /* Improve code snippet UX */
+    .code-snippet pre {
+        white-space: pre-wrap;
+        word-break: break-word;
+    }
+
+    /* Reduce section padding */
+    section {
+        padding: var(--spacing-xl) 0;
+    }
+
+    /* Improve button touch targets */
+    .btn {
+        min-height: 48px;
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        padding: 14px 18px;
+    }
+
+    .hero-social a,
+    .footer-social a {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+/* Fix font scaling issue */
+@media (max-width: 360px) {
+    html {
+        font-size: 15px;
+    }
+}
